@@ -1,0 +1,48 @@
+ProcessMaker\Bpmn\Model\TChoreographyActivityType:
+    properties:
+        initiatingParticipantRef:
+            expose: true
+            access_type: public_method
+            serialized_name: initiatingParticipantRef
+            accessor:
+                getter: getInitiatingParticipantRef
+                setter: setInitiatingParticipantRef
+            xml_attribute: true
+            type: string
+        loopType:
+            expose: true
+            access_type: public_method
+            serialized_name: loopType
+            accessor:
+                getter: getLoopType
+                setter: setLoopType
+            xml_attribute: true
+            type: string
+        participantRef:
+            expose: true
+            access_type: public_method
+            serialized_name: participantRef
+            xml_element:
+                namespace: 'http://www.omg.org/spec/BPMN/20100524/MODEL'
+            accessor:
+                getter: getParticipantRef
+                setter: setParticipantRef
+            xml_list:
+                inline: true
+                entry_name: participantRef
+                namespace: 'http://www.omg.org/spec/BPMN/20100524/MODEL'
+            type: array<string>
+        correlationKey:
+            expose: true
+            access_type: public_method
+            serialized_name: correlationKey
+            xml_element:
+                namespace: 'http://www.omg.org/spec/BPMN/20100524/MODEL'
+            accessor:
+                getter: getCorrelationKey
+                setter: setCorrelationKey
+            xml_list:
+                inline: true
+                entry_name: correlationKey
+                namespace: 'http://www.omg.org/spec/BPMN/20100524/MODEL'
+            type: array<ProcessMaker\Bpmn\Model\CorrelationKey>

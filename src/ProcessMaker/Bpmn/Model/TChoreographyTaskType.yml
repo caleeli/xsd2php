@@ -1,0 +1,16 @@
+ProcessMaker\Bpmn\Model\TChoreographyTaskType:
+    properties:
+        messageFlowRef:
+            expose: true
+            access_type: public_method
+            serialized_name: messageFlowRef
+            xml_element:
+                namespace: 'http://www.omg.org/spec/BPMN/20100524/MODEL'
+            accessor:
+                getter: getMessageFlowRef
+                setter: setMessageFlowRef
+            xml_list:
+                inline: true
+                entry_name: messageFlowRef
+                namespace: 'http://www.omg.org/spec/BPMN/20100524/MODEL'
+            type: array<string>

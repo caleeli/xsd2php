@@ -1,0 +1,12 @@
+ProcessMaker\Bpmn\Model\TConditionalEventDefinitionType:
+    properties:
+        condition:
+            expose: true
+            access_type: public_method
+            serialized_name: condition
+            xml_element:
+                namespace: 'http://www.omg.org/spec/BPMN/20100524/MODEL'
+            accessor:
+                getter: getCondition
+                setter: setCondition
+            type: ProcessMaker\Bpmn\Model\TExpressionType

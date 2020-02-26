@@ -1,0 +1,29 @@
+ProcessMaker\Bpmn\Model\TInputOutputBindingType:
+    properties:
+        operationRef:
+            expose: true
+            access_type: public_method
+            serialized_name: operationRef
+            accessor:
+                getter: getOperationRef
+                setter: setOperationRef
+            xml_attribute: true
+            type: string
+        inputDataRef:
+            expose: true
+            access_type: public_method
+            serialized_name: inputDataRef
+            accessor:
+                getter: getInputDataRef
+                setter: setInputDataRef
+            xml_attribute: true
+            type: string
+        outputDataRef:
+            expose: true
+            access_type: public_method
+            serialized_name: outputDataRef
+            accessor:
+                getter: getOutputDataRef
+                setter: setOutputDataRef
+            xml_attribute: true
+            type: string

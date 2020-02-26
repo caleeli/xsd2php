@@ -1,0 +1,16 @@
+ProcessMaker\Bpmn\Diagram\PlaneType:
+    properties:
+        diagramElement:
+            expose: true
+            access_type: public_method
+            serialized_name: DiagramElement
+            xml_element:
+                namespace: 'http://www.omg.org/spec/DD/20100524/DI'
+            accessor:
+                getter: getDiagramElement
+                setter: setDiagramElement
+            xml_list:
+                inline: true
+                entry_name: DiagramElement
+                namespace: 'http://www.omg.org/spec/DD/20100524/DI'
+            type: array<ProcessMaker\Bpmn\Diagram\DiagramElement>

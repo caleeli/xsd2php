@@ -1,0 +1,26 @@
+ProcessMaker\Bpmn\Diagram\BPMNDiagramType:
+    properties:
+        bPMNPlane:
+            expose: true
+            access_type: public_method
+            serialized_name: BPMNPlane
+            xml_element:
+                namespace: 'http://www.omg.org/spec/BPMN/20100524/DI'
+            accessor:
+                getter: getBPMNPlane
+                setter: setBPMNPlane
+            type: ProcessMaker\Bpmn\Diagram\BPMNPlane
+        bPMNLabelStyle:
+            expose: true
+            access_type: public_method
+            serialized_name: BPMNLabelStyle
+            xml_element:
+                namespace: 'http://www.omg.org/spec/BPMN/20100524/DI'
+            accessor:
+                getter: getBPMNLabelStyle
+                setter: setBPMNLabelStyle
+            xml_list:
+                inline: true
+                entry_name: BPMNLabelStyle
+                namespace: 'http://www.omg.org/spec/BPMN/20100524/DI'
+            type: array<ProcessMaker\Bpmn\Diagram\BPMNLabelStyle>

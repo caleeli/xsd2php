@@ -1,0 +1,3 @@
+ProcessMaker\Bpmn\Model\ParticipantAssociation:
+    xml_root_name: participantAssociation
+    xml_root_namespace: 'http://www.omg.org/spec/BPMN/20100524/MODEL'

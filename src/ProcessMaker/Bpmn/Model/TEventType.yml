@@ -1,0 +1,16 @@
+ProcessMaker\Bpmn\Model\TEventType:
+    properties:
+        property:
+            expose: true
+            access_type: public_method
+            serialized_name: property
+            xml_element:
+                namespace: 'http://www.omg.org/spec/BPMN/20100524/MODEL'
+            accessor:
+                getter: getProperty
+                setter: setProperty
+            xml_list:
+                inline: true
+                entry_name: property
+                namespace: 'http://www.omg.org/spec/BPMN/20100524/MODEL'
+            type: array<ProcessMaker\Bpmn\Model\Property>

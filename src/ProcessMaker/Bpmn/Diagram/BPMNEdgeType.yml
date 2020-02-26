@@ -1,0 +1,48 @@
+ProcessMaker\Bpmn\Diagram\BPMNEdgeType:
+    properties:
+        bpmnElement:
+            expose: true
+            access_type: public_method
+            serialized_name: bpmnElement
+            accessor:
+                getter: getBpmnElement
+                setter: setBpmnElement
+            xml_attribute: true
+            type: string
+        sourceElement:
+            expose: true
+            access_type: public_method
+            serialized_name: sourceElement
+            accessor:
+                getter: getSourceElement
+                setter: setSourceElement
+            xml_attribute: true
+            type: string
+        targetElement:
+            expose: true
+            access_type: public_method
+            serialized_name: targetElement
+            accessor:
+                getter: getTargetElement
+                setter: setTargetElement
+            xml_attribute: true
+            type: string
+        messageVisibleKind:
+            expose: true
+            access_type: public_method
+            serialized_name: messageVisibleKind
+            accessor:
+                getter: getMessageVisibleKind
+                setter: setMessageVisibleKind
+            xml_attribute: true
+            type: string
+        bPMNLabel:
+            expose: true
+            access_type: public_method
+            serialized_name: BPMNLabel
+            xml_element:
+                namespace: 'http://www.omg.org/spec/BPMN/20100524/DI'
+            accessor:
+                getter: getBPMNLabel
+                setter: setBPMNLabel
+            type: ProcessMaker\Bpmn\Diagram\BPMNLabel

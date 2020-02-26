@@ -1,0 +1,20 @@
+{
+    "name": "davidc/xsd2php",
+    "description": "xsd2php",
+    "require": {
+        "goetas/xsd2php": "^2.0",
+        "goetas-webservices/xsd2php-runtime": "^0.2.2",
+        "jms/serializer": "^1.11"
+    },
+    "autoload": {
+        "psr-4": {
+            "ProcessMaker\\": "src/ProcessMaker/"
+        }
+    },
+    "authors": [
+        {
+            "name": "David Callizaya",
+            "email": "davidcallizaya@gmail.com"
+        }
+    ]
+}

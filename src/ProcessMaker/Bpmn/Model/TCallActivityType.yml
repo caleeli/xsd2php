@@ -1,0 +1,11 @@
+ProcessMaker\Bpmn\Model\TCallActivityType:
+    properties:
+        calledElement:
+            expose: true
+            access_type: public_method
+            serialized_name: calledElement
+            accessor:
+                getter: getCalledElement
+                setter: setCalledElement
+            xml_attribute: true
+            type: string

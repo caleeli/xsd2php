@@ -1,0 +1,50 @@
+ProcessMaker\Bpmn\Model\TDataAssociationType:
+    properties:
+        sourceRef:
+            expose: true
+            access_type: public_method
+            serialized_name: sourceRef
+            xml_element:
+                namespace: 'http://www.omg.org/spec/BPMN/20100524/MODEL'
+            accessor:
+                getter: getSourceRef
+                setter: setSourceRef
+            xml_list:
+                inline: true
+                entry_name: sourceRef
+                namespace: 'http://www.omg.org/spec/BPMN/20100524/MODEL'
+            type: array<string>
+        targetRef:
+            expose: true
+            access_type: public_method
+            serialized_name: targetRef
+            xml_element:
+                namespace: 'http://www.omg.org/spec/BPMN/20100524/MODEL'
+            accessor:
+                getter: getTargetRef
+                setter: setTargetRef
+            type: string
+        transformation:
+            expose: true
+            access_type: public_method
+            serialized_name: transformation
+            xml_element:
+                namespace: 'http://www.omg.org/spec/BPMN/20100524/MODEL'
+            accessor:
+                getter: getTransformation
+                setter: setTransformation
+            type: ProcessMaker\Bpmn\Model\TFormalExpressionType
+        assignment:
+            expose: true
+            access_type: public_method
+            serialized_name: assignment
+            xml_element:
+                namespace: 'http://www.omg.org/spec/BPMN/20100524/MODEL'
+            accessor:
+                getter: getAssignment
+                setter: setAssignment
+            xml_list:
+                inline: true
+                entry_name: assignment
+                namespace: 'http://www.omg.org/spec/BPMN/20100524/MODEL'
+            type: array<ProcessMaker\Bpmn\Model\Assignment>

@@ -1,0 +1,25 @@
+ProcessMaker\Bpmn\Model\TCorrelationSubscriptionType:
+    properties:
+        correlationKeyRef:
+            expose: true
+            access_type: public_method
+            serialized_name: correlationKeyRef
+            accessor:
+                getter: getCorrelationKeyRef
+                setter: setCorrelationKeyRef
+            xml_attribute: true
+            type: string
+        correlationPropertyBinding:
+            expose: true
+            access_type: public_method
+            serialized_name: correlationPropertyBinding
+            xml_element:
+                namespace: 'http://www.omg.org/spec/BPMN/20100524/MODEL'
+            accessor:
+                getter: getCorrelationPropertyBinding
+                setter: setCorrelationPropertyBinding
+            xml_list:
+                inline: true
+                entry_name: correlationPropertyBinding
+                namespace: 'http://www.omg.org/spec/BPMN/20100524/MODEL'
+            type: array<ProcessMaker\Bpmn\Model\CorrelationPropertyBinding>

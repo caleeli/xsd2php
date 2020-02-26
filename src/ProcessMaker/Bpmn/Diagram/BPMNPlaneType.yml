@@ -1,0 +1,11 @@
+ProcessMaker\Bpmn\Diagram\BPMNPlaneType:
+    properties:
+        bpmnElement:
+            expose: true
+            access_type: public_method
+            serialized_name: bpmnElement
+            accessor:
+                getter: getBpmnElement
+                setter: setBpmnElement
+            xml_attribute: true
+            type: string

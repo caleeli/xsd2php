@@ -1,0 +1,12 @@
+ProcessMaker\Bpmn\Model\TResourceAssignmentExpressionType:
+    properties:
+        expression:
+            expose: true
+            access_type: public_method
+            serialized_name: expression
+            xml_element:
+                namespace: 'http://www.omg.org/spec/BPMN/20100524/MODEL'
+            accessor:
+                getter: getExpression
+                setter: setExpression
+            type: ProcessMaker\Bpmn\Model\Expression

@@ -1,0 +1,29 @@
+ProcessMaker\Bpmn\Model\TItemDefinitionType:
+    properties:
+        structureRef:
+            expose: true
+            access_type: public_method
+            serialized_name: structureRef
+            accessor:
+                getter: getStructureRef
+                setter: setStructureRef
+            xml_attribute: true
+            type: string
+        isCollection:
+            expose: true
+            access_type: public_method
+            serialized_name: isCollection
+            accessor:
+                getter: getIsCollection
+                setter: setIsCollection
+            xml_attribute: true
+            type: boolean
+        itemKind:
+            expose: true
+            access_type: public_method
+            serialized_name: itemKind
+            accessor:
+                getter: getItemKind
+                setter: setItemKind
+            xml_attribute: true
+            type: string

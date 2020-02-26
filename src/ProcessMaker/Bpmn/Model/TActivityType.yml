@@ -1,0 +1,114 @@
+ProcessMaker\Bpmn\Model\TActivityType:
+    properties:
+        isForCompensation:
+            expose: true
+            access_type: public_method
+            serialized_name: isForCompensation
+            accessor:
+                getter: getIsForCompensation
+                setter: setIsForCompensation
+            xml_attribute: true
+            type: boolean
+        startQuantity:
+            expose: true
+            access_type: public_method
+            serialized_name: startQuantity
+            accessor:
+                getter: getStartQuantity
+                setter: setStartQuantity
+            xml_attribute: true
+            type: integer
+        completionQuantity:
+            expose: true
+            access_type: public_method
+            serialized_name: completionQuantity
+            accessor:
+                getter: getCompletionQuantity
+                setter: setCompletionQuantity
+            xml_attribute: true
+            type: integer
+        default:
+            expose: true
+            access_type: public_method
+            serialized_name: default
+            accessor:
+                getter: getDefault
+                setter: setDefault
+            xml_attribute: true
+            type: string
+        ioSpecification:
+            expose: true
+            access_type: public_method
+            serialized_name: ioSpecification
+            xml_element:
+                namespace: 'http://www.omg.org/spec/BPMN/20100524/MODEL'
+            accessor:
+                getter: getIoSpecification
+                setter: setIoSpecification
+            type: ProcessMaker\Bpmn\Model\IoSpecification
+        property:
+            expose: true
+            access_type: public_method
+            serialized_name: property
+            xml_element:
+                namespace: 'http://www.omg.org/spec/BPMN/20100524/MODEL'
+            accessor:
+                getter: getProperty
+                setter: setProperty
+            xml_list:
+                inline: true
+                entry_name: property
+                namespace: 'http://www.omg.org/spec/BPMN/20100524/MODEL'
+            type: array<ProcessMaker\Bpmn\Model\Property>
+        dataInputAssociation:
+            expose: true
+            access_type: public_method
+            serialized_name: dataInputAssociation
+            xml_element:
+                namespace: 'http://www.omg.org/spec/BPMN/20100524/MODEL'
+            accessor:
+                getter: getDataInputAssociation
+                setter: setDataInputAssociation
+            xml_list:
+                inline: true
+                entry_name: dataInputAssociation
+                namespace: 'http://www.omg.org/spec/BPMN/20100524/MODEL'
+            type: array<ProcessMaker\Bpmn\Model\DataInputAssociation>
+        dataOutputAssociation:
+            expose: true
+            access_type: public_method
+            serialized_name: dataOutputAssociation
+            xml_element:
+                namespace: 'http://www.omg.org/spec/BPMN/20100524/MODEL'
+            accessor:
+                getter: getDataOutputAssociation
+                setter: setDataOutputAssociation
+            xml_list:
+                inline: true
+                entry_name: dataOutputAssociation
+                namespace: 'http://www.omg.org/spec/BPMN/20100524/MODEL'
+            type: array<ProcessMaker\Bpmn\Model\DataOutputAssociation>
+        resourceRole:
+            expose: true
+            access_type: public_method
+            serialized_name: resourceRole
+            xml_element:
+                namespace: 'http://www.omg.org/spec/BPMN/20100524/MODEL'
+            accessor:
+                getter: getResourceRole
+                setter: setResourceRole
+            xml_list:
+                inline: true
+                entry_name: resourceRole
+                namespace: 'http://www.omg.org/spec/BPMN/20100524/MODEL'
+            type: array<ProcessMaker\Bpmn\Model\ResourceRole>
+        loopCharacteristics:
+            expose: true
+            access_type: public_method
+            serialized_name: loopCharacteristics
+            xml_element:
+                namespace: 'http://www.omg.org/spec/BPMN/20100524/MODEL'
+            accessor:
+                getter: getLoopCharacteristics
+                setter: setLoopCharacteristics
+            type: ProcessMaker\Bpmn\Model\LoopCharacteristics

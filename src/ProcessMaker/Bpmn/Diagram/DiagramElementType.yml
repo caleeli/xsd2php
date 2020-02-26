@@ -1,0 +1,21 @@
+ProcessMaker\Bpmn\Diagram\DiagramElementType:
+    properties:
+        id:
+            expose: true
+            access_type: public_method
+            serialized_name: id
+            accessor:
+                getter: getId
+                setter: setId
+            xml_attribute: true
+            type: string
+        extension:
+            expose: true
+            access_type: public_method
+            serialized_name: extension
+            xml_element:
+                namespace: 'http://www.omg.org/spec/DD/20100524/DI'
+            accessor:
+                getter: getExtension
+                setter: setExtension
+            type: ProcessMaker\Bpmn\Diagram\DiagramElementType\ExtensionAType

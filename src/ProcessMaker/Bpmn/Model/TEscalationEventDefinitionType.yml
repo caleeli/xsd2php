@@ -1,0 +1,11 @@
+ProcessMaker\Bpmn\Model\TEscalationEventDefinitionType:
+    properties:
+        escalationRef:
+            expose: true
+            access_type: public_method
+            serialized_name: escalationRef
+            accessor:
+                getter: getEscalationRef
+                setter: setEscalationRef
+            xml_attribute: true
+            type: string

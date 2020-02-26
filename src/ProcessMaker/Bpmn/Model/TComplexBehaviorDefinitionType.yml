@@ -1,0 +1,22 @@
+ProcessMaker\Bpmn\Model\TComplexBehaviorDefinitionType:
+    properties:
+        condition:
+            expose: true
+            access_type: public_method
+            serialized_name: condition
+            xml_element:
+                namespace: 'http://www.omg.org/spec/BPMN/20100524/MODEL'
+            accessor:
+                getter: getCondition
+                setter: setCondition
+            type: ProcessMaker\Bpmn\Model\TFormalExpressionType
+        event:
+            expose: true
+            access_type: public_method
+            serialized_name: event
+            xml_element:
+                namespace: 'http://www.omg.org/spec/BPMN/20100524/MODEL'
+            accessor:
+                getter: getEvent
+                setter: setEvent
+            type: ProcessMaker\Bpmn\Model\TImplicitThrowEventType

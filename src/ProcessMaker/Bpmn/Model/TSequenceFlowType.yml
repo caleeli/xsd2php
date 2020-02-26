@@ -1,0 +1,39 @@
+ProcessMaker\Bpmn\Model\TSequenceFlowType:
+    properties:
+        sourceRef:
+            expose: true
+            access_type: public_method
+            serialized_name: sourceRef
+            accessor:
+                getter: getSourceRef
+                setter: setSourceRef
+            xml_attribute: true
+            type: string
+        targetRef:
+            expose: true
+            access_type: public_method
+            serialized_name: targetRef
+            accessor:
+                getter: getTargetRef
+                setter: setTargetRef
+            xml_attribute: true
+            type: string
+        isImmediate:
+            expose: true
+            access_type: public_method
+            serialized_name: isImmediate
+            accessor:
+                getter: getIsImmediate
+                setter: setIsImmediate
+            xml_attribute: true
+            type: boolean
+        conditionExpression:
+            expose: true
+            access_type: public_method
+            serialized_name: conditionExpression
+            xml_element:
+                namespace: 'http://www.omg.org/spec/BPMN/20100524/MODEL'
+            accessor:
+                getter: getConditionExpression
+                setter: setConditionExpression
+            type: ProcessMaker\Bpmn\Model\TExpressionType

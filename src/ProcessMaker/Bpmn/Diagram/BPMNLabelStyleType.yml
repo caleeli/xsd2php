@@ -1,0 +1,12 @@
+ProcessMaker\Bpmn\Diagram\BPMNLabelStyleType:
+    properties:
+        font:
+            expose: true
+            access_type: public_method
+            serialized_name: Font
+            xml_element:
+                namespace: 'http://www.omg.org/spec/DD/20100524/DC'
+            accessor:
+                getter: getFont
+                setter: setFont
+            type: ProcessMaker\Bpmn\Diagram\Font

@@ -1,0 +1,38 @@
+ProcessMaker\Bpmn\Diagram\BoundsType:
+    properties:
+        x:
+            expose: true
+            access_type: public_method
+            serialized_name: x
+            accessor:
+                getter: getX
+                setter: setX
+            xml_attribute: true
+            type: float
+        'y':
+            expose: true
+            access_type: public_method
+            serialized_name: 'y'
+            accessor:
+                getter: getY
+                setter: setY
+            xml_attribute: true
+            type: float
+        width:
+            expose: true
+            access_type: public_method
+            serialized_name: width
+            accessor:
+                getter: getWidth
+                setter: setWidth
+            xml_attribute: true
+            type: float
+        height:
+            expose: true
+            access_type: public_method
+            serialized_name: height
+            accessor:
+                getter: getHeight
+                setter: setHeight
+            xml_attribute: true
+            type: float

@@ -1,0 +1,35 @@
+ProcessMaker\Bpmn\Model\TBaseElementWithMixedContentType:
+    properties:
+        id:
+            expose: true
+            access_type: public_method
+            serialized_name: id
+            accessor:
+                getter: getId
+                setter: setId
+            xml_attribute: true
+            type: string
+        documentation:
+            expose: true
+            access_type: public_method
+            serialized_name: documentation
+            xml_element:
+                namespace: 'http://www.omg.org/spec/BPMN/20100524/MODEL'
+            accessor:
+                getter: getDocumentation
+                setter: setDocumentation
+            xml_list:
+                inline: true
+                entry_name: documentation
+                namespace: 'http://www.omg.org/spec/BPMN/20100524/MODEL'
+            type: array<ProcessMaker\Bpmn\Model\Documentation>
+        extensionElements:
+            expose: true
+            access_type: public_method
+            serialized_name: extensionElements
+            xml_element:
+                namespace: 'http://www.omg.org/spec/BPMN/20100524/MODEL'
+            accessor:
+                getter: getExtensionElements
+                setter: setExtensionElements
+            type: ProcessMaker\Bpmn\Model\ExtensionElements

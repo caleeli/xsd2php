@@ -1,0 +1,21 @@
+ProcessMaker\Bpmn\Model\TScriptTaskType:
+    properties:
+        scriptFormat:
+            expose: true
+            access_type: public_method
+            serialized_name: scriptFormat
+            accessor:
+                getter: getScriptFormat
+                setter: setScriptFormat
+            xml_attribute: true
+            type: string
+        script:
+            expose: true
+            access_type: public_method
+            serialized_name: script
+            xml_element:
+                namespace: 'http://www.omg.org/spec/BPMN/20100524/MODEL'
+            accessor:
+                getter: getScript
+                setter: setScript
+            type: ProcessMaker\Bpmn\Model\Script

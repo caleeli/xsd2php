@@ -1,0 +1,29 @@
+ProcessMaker\Bpmn\Model\TEscalationType:
+    properties:
+        name:
+            expose: true
+            access_type: public_method
+            serialized_name: name
+            accessor:
+                getter: getName
+                setter: setName
+            xml_attribute: true
+            type: string
+        escalationCode:
+            expose: true
+            access_type: public_method
+            serialized_name: escalationCode
+            accessor:
+                getter: getEscalationCode
+                setter: setEscalationCode
+            xml_attribute: true
+            type: string
+        structureRef:
+            expose: true
+            access_type: public_method
+            serialized_name: structureRef
+            accessor:
+                getter: getStructureRef
+                setter: setStructureRef
+            xml_attribute: true
+            type: string

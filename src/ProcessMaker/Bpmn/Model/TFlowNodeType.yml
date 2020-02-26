@@ -1,0 +1,30 @@
+ProcessMaker\Bpmn\Model\TFlowNodeType:
+    properties:
+        incoming:
+            expose: true
+            access_type: public_method
+            serialized_name: incoming
+            xml_element:
+                namespace: 'http://www.omg.org/spec/BPMN/20100524/MODEL'
+            accessor:
+                getter: getIncoming
+                setter: setIncoming
+            xml_list:
+                inline: true
+                entry_name: incoming
+                namespace: 'http://www.omg.org/spec/BPMN/20100524/MODEL'
+            type: array<string>
+        outgoing:
+            expose: true
+            access_type: public_method
+            serialized_name: outgoing
+            xml_element:
+                namespace: 'http://www.omg.org/spec/BPMN/20100524/MODEL'
+            accessor:
+                getter: getOutgoing
+                setter: setOutgoing
+            xml_list:
+                inline: true
+                entry_name: outgoing
+                namespace: 'http://www.omg.org/spec/BPMN/20100524/MODEL'
+            type: array<string>

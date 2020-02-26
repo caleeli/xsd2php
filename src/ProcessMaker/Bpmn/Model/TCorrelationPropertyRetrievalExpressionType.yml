@@ -1,0 +1,21 @@
+ProcessMaker\Bpmn\Model\TCorrelationPropertyRetrievalExpressionType:
+    properties:
+        messageRef:
+            expose: true
+            access_type: public_method
+            serialized_name: messageRef
+            accessor:
+                getter: getMessageRef
+                setter: setMessageRef
+            xml_attribute: true
+            type: string
+        messagePath:
+            expose: true
+            access_type: public_method
+            serialized_name: messagePath
+            xml_element:
+                namespace: 'http://www.omg.org/spec/BPMN/20100524/MODEL'
+            accessor:
+                getter: getMessagePath
+                setter: setMessagePath
+            type: ProcessMaker\Bpmn\Model\TFormalExpressionType

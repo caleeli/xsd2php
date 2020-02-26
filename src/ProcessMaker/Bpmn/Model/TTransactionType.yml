@@ -1,0 +1,11 @@
+ProcessMaker\Bpmn\Model\TTransactionType:
+    properties:
+        method:
+            expose: true
+            access_type: public_method
+            serialized_name: method
+            accessor:
+                getter: getMethod
+                setter: setMethod
+            xml_attribute: true
+            type: string

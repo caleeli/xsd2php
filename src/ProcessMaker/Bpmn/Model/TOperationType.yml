@@ -1,0 +1,54 @@
+ProcessMaker\Bpmn\Model\TOperationType:
+    properties:
+        name:
+            expose: true
+            access_type: public_method
+            serialized_name: name
+            accessor:
+                getter: getName
+                setter: setName
+            xml_attribute: true
+            type: string
+        implementationRef:
+            expose: true
+            access_type: public_method
+            serialized_name: implementationRef
+            accessor:
+                getter: getImplementationRef
+                setter: setImplementationRef
+            xml_attribute: true
+            type: string
+        inMessageRef:
+            expose: true
+            access_type: public_method
+            serialized_name: inMessageRef
+            xml_element:
+                namespace: 'http://www.omg.org/spec/BPMN/20100524/MODEL'
+            accessor:
+                getter: getInMessageRef
+                setter: setInMessageRef
+            type: string
+        outMessageRef:
+            expose: true
+            access_type: public_method
+            serialized_name: outMessageRef
+            xml_element:
+                namespace: 'http://www.omg.org/spec/BPMN/20100524/MODEL'
+            accessor:
+                getter: getOutMessageRef
+                setter: setOutMessageRef
+            type: string
+        errorRef:
+            expose: true
+            access_type: public_method
+            serialized_name: errorRef
+            xml_element:
+                namespace: 'http://www.omg.org/spec/BPMN/20100524/MODEL'
+            accessor:
+                getter: getErrorRef
+                setter: setErrorRef
+            xml_list:
+                inline: true
+                entry_name: errorRef
+                namespace: 'http://www.omg.org/spec/BPMN/20100524/MODEL'
+            type: array<string>

@@ -1,0 +1,30 @@
+ProcessMaker\Bpmn\Model\TStandardLoopCharacteristicsType:
+    properties:
+        testBefore:
+            expose: true
+            access_type: public_method
+            serialized_name: testBefore
+            accessor:
+                getter: getTestBefore
+                setter: setTestBefore
+            xml_attribute: true
+            type: boolean
+        loopMaximum:
+            expose: true
+            access_type: public_method
+            serialized_name: loopMaximum
+            accessor:
+                getter: getLoopMaximum
+                setter: setLoopMaximum
+            xml_attribute: true
+            type: integer
+        loopCondition:
+            expose: true
+            access_type: public_method
+            serialized_name: loopCondition
+            xml_element:
+                namespace: 'http://www.omg.org/spec/BPMN/20100524/MODEL'
+            accessor:
+                getter: getLoopCondition
+                setter: setLoopCondition
+            type: ProcessMaker\Bpmn\Model\TExpressionType

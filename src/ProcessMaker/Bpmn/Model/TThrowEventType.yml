@@ -1,0 +1,68 @@
+ProcessMaker\Bpmn\Model\TThrowEventType:
+    properties:
+        dataInput:
+            expose: true
+            access_type: public_method
+            serialized_name: dataInput
+            xml_element:
+                namespace: 'http://www.omg.org/spec/BPMN/20100524/MODEL'
+            accessor:
+                getter: getDataInput
+                setter: setDataInput
+            xml_list:
+                inline: true
+                entry_name: dataInput
+                namespace: 'http://www.omg.org/spec/BPMN/20100524/MODEL'
+            type: array<ProcessMaker\Bpmn\Model\DataInput>
+        dataInputAssociation:
+            expose: true
+            access_type: public_method
+            serialized_name: dataInputAssociation
+            xml_element:
+                namespace: 'http://www.omg.org/spec/BPMN/20100524/MODEL'
+            accessor:
+                getter: getDataInputAssociation
+                setter: setDataInputAssociation
+            xml_list:
+                inline: true
+                entry_name: dataInputAssociation
+                namespace: 'http://www.omg.org/spec/BPMN/20100524/MODEL'
+            type: array<ProcessMaker\Bpmn\Model\DataInputAssociation>
+        inputSet:
+            expose: true
+            access_type: public_method
+            serialized_name: inputSet
+            xml_element:
+                namespace: 'http://www.omg.org/spec/BPMN/20100524/MODEL'
+            accessor:
+                getter: getInputSet
+                setter: setInputSet
+            type: ProcessMaker\Bpmn\Model\InputSet
+        eventDefinition:
+            expose: true
+            access_type: public_method
+            serialized_name: eventDefinition
+            xml_element:
+                namespace: 'http://www.omg.org/spec/BPMN/20100524/MODEL'
+            accessor:
+                getter: getEventDefinition
+                setter: setEventDefinition
+            xml_list:
+                inline: true
+                entry_name: eventDefinition
+                namespace: 'http://www.omg.org/spec/BPMN/20100524/MODEL'
+            type: array<ProcessMaker\Bpmn\Model\EventDefinition>
+        eventDefinitionRef:
+            expose: true
+            access_type: public_method
+            serialized_name: eventDefinitionRef
+            xml_element:
+                namespace: 'http://www.omg.org/spec/BPMN/20100524/MODEL'
+            accessor:
+                getter: getEventDefinitionRef
+                setter: setEventDefinitionRef
+            xml_list:
+                inline: true
+                entry_name: eventDefinitionRef
+                namespace: 'http://www.omg.org/spec/BPMN/20100524/MODEL'
+            type: array<string>

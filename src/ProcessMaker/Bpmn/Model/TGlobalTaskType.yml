@@ -1,0 +1,16 @@
+ProcessMaker\Bpmn\Model\TGlobalTaskType:
+    properties:
+        resourceRole:
+            expose: true
+            access_type: public_method
+            serialized_name: resourceRole
+            xml_element:
+                namespace: 'http://www.omg.org/spec/BPMN/20100524/MODEL'
+            accessor:
+                getter: getResourceRole
+                setter: setResourceRole
+            xml_list:
+                inline: true
+                entry_name: resourceRole
+                namespace: 'http://www.omg.org/spec/BPMN/20100524/MODEL'
+            type: array<ProcessMaker\Bpmn\Model\ResourceRole>

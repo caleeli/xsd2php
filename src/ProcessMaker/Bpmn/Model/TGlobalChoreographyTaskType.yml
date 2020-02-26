@@ -1,0 +1,11 @@
+ProcessMaker\Bpmn\Model\TGlobalChoreographyTaskType:
+    properties:
+        initiatingParticipantRef:
+            expose: true
+            access_type: public_method
+            serialized_name: initiatingParticipantRef
+            accessor:
+                getter: getInitiatingParticipantRef
+                setter: setInitiatingParticipantRef
+            xml_attribute: true
+            type: string

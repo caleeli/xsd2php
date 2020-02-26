@@ -1,0 +1,53 @@
+ProcessMaker\Bpmn\Model\TConversationNodeType:
+    properties:
+        name:
+            expose: true
+            access_type: public_method
+            serialized_name: name
+            accessor:
+                getter: getName
+                setter: setName
+            xml_attribute: true
+            type: string
+        participantRef:
+            expose: true
+            access_type: public_method
+            serialized_name: participantRef
+            xml_element:
+                namespace: 'http://www.omg.org/spec/BPMN/20100524/MODEL'
+            accessor:
+                getter: getParticipantRef
+                setter: setParticipantRef
+            xml_list:
+                inline: true
+                entry_name: participantRef
+                namespace: 'http://www.omg.org/spec/BPMN/20100524/MODEL'
+            type: array<string>
+        messageFlowRef:
+            expose: true
+            access_type: public_method
+            serialized_name: messageFlowRef
+            xml_element:
+                namespace: 'http://www.omg.org/spec/BPMN/20100524/MODEL'
+            accessor:
+                getter: getMessageFlowRef
+                setter: setMessageFlowRef
+            xml_list:
+                inline: true
+                entry_name: messageFlowRef
+                namespace: 'http://www.omg.org/spec/BPMN/20100524/MODEL'
+            type: array<string>
+        correlationKey:
+            expose: true
+            access_type: public_method
+            serialized_name: correlationKey
+            xml_element:
+                namespace: 'http://www.omg.org/spec/BPMN/20100524/MODEL'
+            accessor:
+                getter: getCorrelationKey
+                setter: setCorrelationKey
+            xml_list:
+                inline: true
+                entry_name: correlationKey
+                namespace: 'http://www.omg.org/spec/BPMN/20100524/MODEL'
+            type: array<ProcessMaker\Bpmn\Model\CorrelationKey>

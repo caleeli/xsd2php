@@ -1,0 +1,3 @@
+ProcessMaker\Bpmn\Model\GlobalUserTask:
+    xml_root_name: globalUserTask
+    xml_root_namespace: 'http://www.omg.org/spec/BPMN/20100524/MODEL'

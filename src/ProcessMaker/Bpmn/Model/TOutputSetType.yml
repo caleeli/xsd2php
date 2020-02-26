@@ -1,0 +1,67 @@
+ProcessMaker\Bpmn\Model\TOutputSetType:
+    properties:
+        name:
+            expose: true
+            access_type: public_method
+            serialized_name: name
+            accessor:
+                getter: getName
+                setter: setName
+            xml_attribute: true
+            type: string
+        dataOutputRefs:
+            expose: true
+            access_type: public_method
+            serialized_name: dataOutputRefs
+            xml_element:
+                namespace: 'http://www.omg.org/spec/BPMN/20100524/MODEL'
+            accessor:
+                getter: getDataOutputRefs
+                setter: setDataOutputRefs
+            xml_list:
+                inline: true
+                entry_name: dataOutputRefs
+                namespace: 'http://www.omg.org/spec/BPMN/20100524/MODEL'
+            type: array<string>
+        optionalOutputRefs:
+            expose: true
+            access_type: public_method
+            serialized_name: optionalOutputRefs
+            xml_element:
+                namespace: 'http://www.omg.org/spec/BPMN/20100524/MODEL'
+            accessor:
+                getter: getOptionalOutputRefs
+                setter: setOptionalOutputRefs
+            xml_list:
+                inline: true
+                entry_name: optionalOutputRefs
+                namespace: 'http://www.omg.org/spec/BPMN/20100524/MODEL'
+            type: array<string>
+        whileExecutingOutputRefs:
+            expose: true
+            access_type: public_method
+            serialized_name: whileExecutingOutputRefs
+            xml_element:
+                namespace: 'http://www.omg.org/spec/BPMN/20100524/MODEL'
+            accessor:
+                getter: getWhileExecutingOutputRefs
+                setter: setWhileExecutingOutputRefs
+            xml_list:
+                inline: true
+                entry_name: whileExecutingOutputRefs
+                namespace: 'http://www.omg.org/spec/BPMN/20100524/MODEL'
+            type: array<string>
+        inputSetRefs:
+            expose: true
+            access_type: public_method
+            serialized_name: inputSetRefs
+            xml_element:
+                namespace: 'http://www.omg.org/spec/BPMN/20100524/MODEL'
+            accessor:
+                getter: getInputSetRefs
+                setter: setInputSetRefs
+            xml_list:
+                inline: true
+                entry_name: inputSetRefs
+                namespace: 'http://www.omg.org/spec/BPMN/20100524/MODEL'
+            type: array<string>

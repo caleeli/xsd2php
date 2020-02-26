@@ -1,0 +1,21 @@
+ProcessMaker\Bpmn\Model\TTextAnnotationType:
+    properties:
+        textFormat:
+            expose: true
+            access_type: public_method
+            serialized_name: textFormat
+            accessor:
+                getter: getTextFormat
+                setter: setTextFormat
+            xml_attribute: true
+            type: string
+        text:
+            expose: true
+            access_type: public_method
+            serialized_name: text
+            xml_element:
+                namespace: 'http://www.omg.org/spec/BPMN/20100524/MODEL'
+            accessor:
+                getter: getText
+                setter: setText
+            type: ProcessMaker\Bpmn\Model\Text

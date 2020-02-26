@@ -1,0 +1,3 @@
+ProcessMaker\Bpmn\Diagram\Shape:
+    xml_root_name: Shape
+    xml_root_namespace: 'http://www.omg.org/spec/DD/20100524/DI'

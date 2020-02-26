@@ -1,0 +1,3 @@
+ProcessMaker\Bpmn\Model\DataObjectReference:
+    xml_root_name: dataObjectReference
+    xml_root_namespace: 'http://www.omg.org/spec/BPMN/20100524/MODEL'

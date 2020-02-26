@@ -1,0 +1,29 @@
+ProcessMaker\Bpmn\Model\TSendTaskType:
+    properties:
+        implementation:
+            expose: true
+            access_type: public_method
+            serialized_name: implementation
+            accessor:
+                getter: getImplementation
+                setter: setImplementation
+            xml_attribute: true
+            type: string
+        messageRef:
+            expose: true
+            access_type: public_method
+            serialized_name: messageRef
+            accessor:
+                getter: getMessageRef
+                setter: setMessageRef
+            xml_attribute: true
+            type: string
+        operationRef:
+            expose: true
+            access_type: public_method
+            serialized_name: operationRef
+            accessor:
+                getter: getOperationRef
+                setter: setOperationRef
+            xml_attribute: true
+            type: string

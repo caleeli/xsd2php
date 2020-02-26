@@ -1,0 +1,156 @@
+ProcessMaker\Bpmn\Model\TProcessType:
+    properties:
+        processType:
+            expose: true
+            access_type: public_method
+            serialized_name: processType
+            accessor:
+                getter: getProcessType
+                setter: setProcessType
+            xml_attribute: true
+            type: string
+        isClosed:
+            expose: true
+            access_type: public_method
+            serialized_name: isClosed
+            accessor:
+                getter: getIsClosed
+                setter: setIsClosed
+            xml_attribute: true
+            type: boolean
+        isExecutable:
+            expose: true
+            access_type: public_method
+            serialized_name: isExecutable
+            accessor:
+                getter: getIsExecutable
+                setter: setIsExecutable
+            xml_attribute: true
+            type: boolean
+        definitionalCollaborationRef:
+            expose: true
+            access_type: public_method
+            serialized_name: definitionalCollaborationRef
+            accessor:
+                getter: getDefinitionalCollaborationRef
+                setter: setDefinitionalCollaborationRef
+            xml_attribute: true
+            type: string
+        auditing:
+            expose: true
+            access_type: public_method
+            serialized_name: auditing
+            xml_element:
+                namespace: 'http://www.omg.org/spec/BPMN/20100524/MODEL'
+            accessor:
+                getter: getAuditing
+                setter: setAuditing
+            type: ProcessMaker\Bpmn\Model\Auditing
+        monitoring:
+            expose: true
+            access_type: public_method
+            serialized_name: monitoring
+            xml_element:
+                namespace: 'http://www.omg.org/spec/BPMN/20100524/MODEL'
+            accessor:
+                getter: getMonitoring
+                setter: setMonitoring
+            type: ProcessMaker\Bpmn\Model\Monitoring
+        property:
+            expose: true
+            access_type: public_method
+            serialized_name: property
+            xml_element:
+                namespace: 'http://www.omg.org/spec/BPMN/20100524/MODEL'
+            accessor:
+                getter: getProperty
+                setter: setProperty
+            xml_list:
+                inline: true
+                entry_name: property
+                namespace: 'http://www.omg.org/spec/BPMN/20100524/MODEL'
+            type: array<ProcessMaker\Bpmn\Model\Property>
+        laneSet:
+            expose: true
+            access_type: public_method
+            serialized_name: laneSet
+            xml_element:
+                namespace: 'http://www.omg.org/spec/BPMN/20100524/MODEL'
+            accessor:
+                getter: getLaneSet
+                setter: setLaneSet
+            xml_list:
+                inline: true
+                entry_name: laneSet
+                namespace: 'http://www.omg.org/spec/BPMN/20100524/MODEL'
+            type: array<ProcessMaker\Bpmn\Model\LaneSet>
+        flowElement:
+            expose: true
+            access_type: public_method
+            serialized_name: flowElement
+            xml_element:
+                namespace: 'http://www.omg.org/spec/BPMN/20100524/MODEL'
+            accessor:
+                getter: getFlowElement
+                setter: setFlowElement
+            xml_list:
+                inline: true
+                entry_name: flowElement
+                namespace: 'http://www.omg.org/spec/BPMN/20100524/MODEL'
+            type: array<ProcessMaker\Bpmn\Model\FlowElement>
+        artifact:
+            expose: true
+            access_type: public_method
+            serialized_name: artifact
+            xml_element:
+                namespace: 'http://www.omg.org/spec/BPMN/20100524/MODEL'
+            accessor:
+                getter: getArtifact
+                setter: setArtifact
+            xml_list:
+                inline: true
+                entry_name: artifact
+                namespace: 'http://www.omg.org/spec/BPMN/20100524/MODEL'
+            type: array<ProcessMaker\Bpmn\Model\Artifact>
+        resourceRole:
+            expose: true
+            access_type: public_method
+            serialized_name: resourceRole
+            xml_element:
+                namespace: 'http://www.omg.org/spec/BPMN/20100524/MODEL'
+            accessor:
+                getter: getResourceRole
+                setter: setResourceRole
+            xml_list:
+                inline: true
+                entry_name: resourceRole
+                namespace: 'http://www.omg.org/spec/BPMN/20100524/MODEL'
+            type: array<ProcessMaker\Bpmn\Model\ResourceRole>
+        correlationSubscription:
+            expose: true
+            access_type: public_method
+            serialized_name: correlationSubscription
+            xml_element:
+                namespace: 'http://www.omg.org/spec/BPMN/20100524/MODEL'
+            accessor:
+                getter: getCorrelationSubscription
+                setter: setCorrelationSubscription
+            xml_list:
+                inline: true
+                entry_name: correlationSubscription
+                namespace: 'http://www.omg.org/spec/BPMN/20100524/MODEL'
+            type: array<ProcessMaker\Bpmn\Model\CorrelationSubscription>
+        supports:
+            expose: true
+            access_type: public_method
+            serialized_name: supports
+            xml_element:
+                namespace: 'http://www.omg.org/spec/BPMN/20100524/MODEL'
+            accessor:
+                getter: getSupports
+                setter: setSupports
+            xml_list:
+                inline: true
+                entry_name: supports
+                namespace: 'http://www.omg.org/spec/BPMN/20100524/MODEL'
+            type: array<string>

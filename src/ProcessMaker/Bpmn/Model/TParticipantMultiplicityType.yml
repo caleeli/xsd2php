@@ -1,0 +1,20 @@
+ProcessMaker\Bpmn\Model\TParticipantMultiplicityType:
+    properties:
+        minimum:
+            expose: true
+            access_type: public_method
+            serialized_name: minimum
+            accessor:
+                getter: getMinimum
+                setter: setMinimum
+            xml_attribute: true
+            type: integer
+        maximum:
+            expose: true
+            access_type: public_method
+            serialized_name: maximum
+            accessor:
+                getter: getMaximum
+                setter: setMaximum
+            xml_attribute: true
+            type: integer

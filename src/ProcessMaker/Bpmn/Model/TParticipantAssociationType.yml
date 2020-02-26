@@ -1,0 +1,22 @@
+ProcessMaker\Bpmn\Model\TParticipantAssociationType:
+    properties:
+        innerParticipantRef:
+            expose: true
+            access_type: public_method
+            serialized_name: innerParticipantRef
+            xml_element:
+                namespace: 'http://www.omg.org/spec/BPMN/20100524/MODEL'
+            accessor:
+                getter: getInnerParticipantRef
+                setter: setInnerParticipantRef
+            type: string
+        outerParticipantRef:
+            expose: true
+            access_type: public_method
+            serialized_name: outerParticipantRef
+            xml_element:
+                namespace: 'http://www.omg.org/spec/BPMN/20100524/MODEL'
+            accessor:
+                getter: getOuterParticipantRef
+                setter: setOuterParticipantRef
+            type: string

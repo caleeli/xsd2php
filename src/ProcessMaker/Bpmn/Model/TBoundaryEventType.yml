@@ -1,0 +1,20 @@
+ProcessMaker\Bpmn\Model\TBoundaryEventType:
+    properties:
+        cancelActivity:
+            expose: true
+            access_type: public_method
+            serialized_name: cancelActivity
+            accessor:
+                getter: getCancelActivity
+                setter: setCancelActivity
+            xml_attribute: true
+            type: boolean
+        attachedToRef:
+            expose: true
+            access_type: public_method
+            serialized_name: attachedToRef
+            accessor:
+                getter: getAttachedToRef
+                setter: setAttachedToRef
+            xml_attribute: true
+            type: string

@@ -1,0 +1,3 @@
+ProcessMaker\Bpmn\Model\CallActivity:
+    xml_root_name: callActivity
+    xml_root_namespace: 'http://www.omg.org/spec/BPMN/20100524/MODEL'

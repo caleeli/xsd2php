@@ -1,0 +1,58 @@
+ProcessMaker\Bpmn\Model\TInputOutputSpecificationType:
+    properties:
+        dataInput:
+            expose: true
+            access_type: public_method
+            serialized_name: dataInput
+            xml_element:
+                namespace: 'http://www.omg.org/spec/BPMN/20100524/MODEL'
+            accessor:
+                getter: getDataInput
+                setter: setDataInput
+            xml_list:
+                inline: true
+                entry_name: dataInput
+                namespace: 'http://www.omg.org/spec/BPMN/20100524/MODEL'
+            type: array<ProcessMaker\Bpmn\Model\DataInput>
+        dataOutput:
+            expose: true
+            access_type: public_method
+            serialized_name: dataOutput
+            xml_element:
+                namespace: 'http://www.omg.org/spec/BPMN/20100524/MODEL'
+            accessor:
+                getter: getDataOutput
+                setter: setDataOutput
+            xml_list:
+                inline: true
+                entry_name: dataOutput
+                namespace: 'http://www.omg.org/spec/BPMN/20100524/MODEL'
+            type: array<ProcessMaker\Bpmn\Model\DataOutput>
+        inputSet:
+            expose: true
+            access_type: public_method
+            serialized_name: inputSet
+            xml_element:
+                namespace: 'http://www.omg.org/spec/BPMN/20100524/MODEL'
+            accessor:
+                getter: getInputSet
+                setter: setInputSet
+            xml_list:
+                inline: true
+                entry_name: inputSet
+                namespace: 'http://www.omg.org/spec/BPMN/20100524/MODEL'
+            type: array<ProcessMaker\Bpmn\Model\InputSet>
+        outputSet:
+            expose: true
+            access_type: public_method
+            serialized_name: outputSet
+            xml_element:
+                namespace: 'http://www.omg.org/spec/BPMN/20100524/MODEL'
+            accessor:
+                getter: getOutputSet
+                setter: setOutputSet
+            xml_list:
+                inline: true
+                entry_name: outputSet
+                namespace: 'http://www.omg.org/spec/BPMN/20100524/MODEL'
+            type: array<ProcessMaker\Bpmn\Model\OutputSet>

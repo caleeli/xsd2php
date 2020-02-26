@@ -1,0 +1,34 @@
+ProcessMaker\Bpmn\Model\TCorrelationPropertyType:
+    properties:
+        name:
+            expose: true
+            access_type: public_method
+            serialized_name: name
+            accessor:
+                getter: getName
+                setter: setName
+            xml_attribute: true
+            type: string
+        type:
+            expose: true
+            access_type: public_method
+            serialized_name: type
+            accessor:
+                getter: getType
+                setter: setType
+            xml_attribute: true
+            type: string
+        correlationPropertyRetrievalExpression:
+            expose: true
+            access_type: public_method
+            serialized_name: correlationPropertyRetrievalExpression
+            xml_element:
+                namespace: 'http://www.omg.org/spec/BPMN/20100524/MODEL'
+            accessor:
+                getter: getCorrelationPropertyRetrievalExpression
+                setter: setCorrelationPropertyRetrievalExpression
+            xml_list:
+                inline: true
+                entry_name: correlationPropertyRetrievalExpression
+                namespace: 'http://www.omg.org/spec/BPMN/20100524/MODEL'
+            type: array<ProcessMaker\Bpmn\Model\CorrelationPropertyRetrievalExpression>

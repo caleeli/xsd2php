@@ -1,0 +1,45 @@
+ProcessMaker\Bpmn\Model\TResourceRoleType:
+    properties:
+        name:
+            expose: true
+            access_type: public_method
+            serialized_name: name
+            accessor:
+                getter: getName
+                setter: setName
+            xml_attribute: true
+            type: string
+        resourceRef:
+            expose: true
+            access_type: public_method
+            serialized_name: resourceRef
+            xml_element:
+                namespace: 'http://www.omg.org/spec/BPMN/20100524/MODEL'
+            accessor:
+                getter: getResourceRef
+                setter: setResourceRef
+            type: string
+        resourceParameterBinding:
+            expose: true
+            access_type: public_method
+            serialized_name: resourceParameterBinding
+            xml_element:
+                namespace: 'http://www.omg.org/spec/BPMN/20100524/MODEL'
+            accessor:
+                getter: getResourceParameterBinding
+                setter: setResourceParameterBinding
+            xml_list:
+                inline: true
+                entry_name: resourceParameterBinding
+                namespace: 'http://www.omg.org/spec/BPMN/20100524/MODEL'
+            type: array<ProcessMaker\Bpmn\Model\ResourceParameterBinding>
+        resourceAssignmentExpression:
+            expose: true
+            access_type: public_method
+            serialized_name: resourceAssignmentExpression
+            xml_element:
+                namespace: 'http://www.omg.org/spec/BPMN/20100524/MODEL'
+            accessor:
+                getter: getResourceAssignmentExpression
+                setter: setResourceAssignmentExpression
+            type: ProcessMaker\Bpmn\Model\ResourceAssignmentExpression

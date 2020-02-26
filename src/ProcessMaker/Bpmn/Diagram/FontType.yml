@@ -1,0 +1,56 @@
+ProcessMaker\Bpmn\Diagram\FontType:
+    properties:
+        name:
+            expose: true
+            access_type: public_method
+            serialized_name: name
+            accessor:
+                getter: getName
+                setter: setName
+            xml_attribute: true
+            type: string
+        size:
+            expose: true
+            access_type: public_method
+            serialized_name: size
+            accessor:
+                getter: getSize
+                setter: setSize
+            xml_attribute: true
+            type: float
+        isBold:
+            expose: true
+            access_type: public_method
+            serialized_name: isBold
+            accessor:
+                getter: getIsBold
+                setter: setIsBold
+            xml_attribute: true
+            type: boolean
+        isItalic:
+            expose: true
+            access_type: public_method
+            serialized_name: isItalic
+            accessor:
+                getter: getIsItalic
+                setter: setIsItalic
+            xml_attribute: true
+            type: boolean
+        isUnderline:
+            expose: true
+            access_type: public_method
+            serialized_name: isUnderline
+            accessor:
+                getter: getIsUnderline
+                setter: setIsUnderline
+            xml_attribute: true
+            type: boolean
+        isStrikeThrough:
+            expose: true
+            access_type: public_method
+            serialized_name: isStrikeThrough
+            accessor:
+                getter: getIsStrikeThrough
+                setter: setIsStrikeThrough
+            xml_attribute: true
+            type: boolean

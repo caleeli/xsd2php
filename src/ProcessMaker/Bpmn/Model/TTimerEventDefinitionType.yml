@@ -1,0 +1,32 @@
+ProcessMaker\Bpmn\Model\TTimerEventDefinitionType:
+    properties:
+        timeDate:
+            expose: true
+            access_type: public_method
+            serialized_name: timeDate
+            xml_element:
+                namespace: 'http://www.omg.org/spec/BPMN/20100524/MODEL'
+            accessor:
+                getter: getTimeDate
+                setter: setTimeDate
+            type: ProcessMaker\Bpmn\Model\TExpressionType
+        timeDuration:
+            expose: true
+            access_type: public_method
+            serialized_name: timeDuration
+            xml_element:
+                namespace: 'http://www.omg.org/spec/BPMN/20100524/MODEL'
+            accessor:
+                getter: getTimeDuration
+                setter: setTimeDuration
+            type: ProcessMaker\Bpmn\Model\TExpressionType
+        timeCycle:
+            expose: true
+            access_type: public_method
+            serialized_name: timeCycle
+            xml_element:
+                namespace: 'http://www.omg.org/spec/BPMN/20100524/MODEL'
+            accessor:
+                getter: getTimeCycle
+                setter: setTimeCycle
+            type: ProcessMaker\Bpmn\Model\TExpressionType

@@ -1,0 +1,29 @@
+ProcessMaker\Bpmn\Model\TAssociationType:
+    properties:
+        sourceRef:
+            expose: true
+            access_type: public_method
+            serialized_name: sourceRef
+            accessor:
+                getter: getSourceRef
+                setter: setSourceRef
+            xml_attribute: true
+            type: string
+        targetRef:
+            expose: true
+            access_type: public_method
+            serialized_name: targetRef
+            accessor:
+                getter: getTargetRef
+                setter: setTargetRef
+            xml_attribute: true
+            type: string
+        associationDirection:
+            expose: true
+            access_type: public_method
+            serialized_name: associationDirection
+            accessor:
+                getter: getAssociationDirection
+                setter: setAssociationDirection
+            xml_attribute: true
+            type: string

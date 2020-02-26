@@ -1,0 +1,3 @@
+ProcessMaker\Bpmn\Diagram\BPMNDiagram:
+    xml_root_name: BPMNDiagram
+    xml_root_namespace: 'http://www.omg.org/spec/BPMN/20100524/DI'

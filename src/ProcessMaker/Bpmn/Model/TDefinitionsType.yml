@@ -1,0 +1,135 @@
+ProcessMaker\Bpmn\Model\TDefinitionsType:
+    properties:
+        id:
+            expose: true
+            access_type: public_method
+            serialized_name: id
+            accessor:
+                getter: getId
+                setter: setId
+            xml_attribute: true
+            type: string
+        name:
+            expose: true
+            access_type: public_method
+            serialized_name: name
+            accessor:
+                getter: getName
+                setter: setName
+            xml_attribute: true
+            type: string
+        targetNamespace:
+            expose: true
+            access_type: public_method
+            serialized_name: targetNamespace
+            accessor:
+                getter: getTargetNamespace
+                setter: setTargetNamespace
+            xml_attribute: true
+            type: string
+        expressionLanguage:
+            expose: true
+            access_type: public_method
+            serialized_name: expressionLanguage
+            accessor:
+                getter: getExpressionLanguage
+                setter: setExpressionLanguage
+            xml_attribute: true
+            type: string
+        typeLanguage:
+            expose: true
+            access_type: public_method
+            serialized_name: typeLanguage
+            accessor:
+                getter: getTypeLanguage
+                setter: setTypeLanguage
+            xml_attribute: true
+            type: string
+        exporter:
+            expose: true
+            access_type: public_method
+            serialized_name: exporter
+            accessor:
+                getter: getExporter
+                setter: setExporter
+            xml_attribute: true
+            type: string
+        exporterVersion:
+            expose: true
+            access_type: public_method
+            serialized_name: exporterVersion
+            accessor:
+                getter: getExporterVersion
+                setter: setExporterVersion
+            xml_attribute: true
+            type: string
+        import:
+            expose: true
+            access_type: public_method
+            serialized_name: import
+            xml_element:
+                namespace: 'http://www.omg.org/spec/BPMN/20100524/MODEL'
+            accessor:
+                getter: getImport
+                setter: setImport
+            xml_list:
+                inline: true
+                entry_name: import
+                namespace: 'http://www.omg.org/spec/BPMN/20100524/MODEL'
+            type: array<ProcessMaker\Bpmn\Model\Import>
+        extension:
+            expose: true
+            access_type: public_method
+            serialized_name: extension
+            xml_element:
+                namespace: 'http://www.omg.org/spec/BPMN/20100524/MODEL'
+            accessor:
+                getter: getExtension
+                setter: setExtension
+            xml_list:
+                inline: true
+                entry_name: extension
+                namespace: 'http://www.omg.org/spec/BPMN/20100524/MODEL'
+            type: array<ProcessMaker\Bpmn\Model\Extension>
+        rootElement:
+            expose: true
+            access_type: public_method
+            serialized_name: rootElement
+            xml_element:
+                namespace: 'http://www.omg.org/spec/BPMN/20100524/MODEL'
+            accessor:
+                getter: getRootElement
+                setter: setRootElement
+            xml_list:
+                inline: true
+                entry_name: rootElement
+                namespace: 'http://www.omg.org/spec/BPMN/20100524/MODEL'
+            type: array<ProcessMaker\Bpmn\Model\RootElement>
+        bPMNDiagram:
+            expose: true
+            access_type: public_method
+            serialized_name: BPMNDiagram
+            xml_element:
+                namespace: 'http://www.omg.org/spec/BPMN/20100524/DI'
+            accessor:
+                getter: getBPMNDiagram
+                setter: setBPMNDiagram
+            xml_list:
+                inline: true
+                entry_name: BPMNDiagram
+                namespace: 'http://www.omg.org/spec/BPMN/20100524/MODEL'
+            type: array<ProcessMaker\Bpmn\Diagram\BPMNDiagram>
+        relationship:
+            expose: true
+            access_type: public_method
+            serialized_name: relationship
+            xml_element:
+                namespace: 'http://www.omg.org/spec/BPMN/20100524/MODEL'
+            accessor:
+                getter: getRelationship
+                setter: setRelationship
+            xml_list:
+                inline: true
+                entry_name: relationship
+                namespace: 'http://www.omg.org/spec/BPMN/20100524/MODEL'
+            type: array<ProcessMaker\Bpmn\Model\Relationship>

@@ -1,0 +1,112 @@
+ProcessMaker\Bpmn\Model\TMultiInstanceLoopCharacteristicsType:
+    properties:
+        isSequential:
+            expose: true
+            access_type: public_method
+            serialized_name: isSequential
+            accessor:
+                getter: getIsSequential
+                setter: setIsSequential
+            xml_attribute: true
+            type: boolean
+        behavior:
+            expose: true
+            access_type: public_method
+            serialized_name: behavior
+            accessor:
+                getter: getBehavior
+                setter: setBehavior
+            xml_attribute: true
+            type: string
+        oneBehaviorEventRef:
+            expose: true
+            access_type: public_method
+            serialized_name: oneBehaviorEventRef
+            accessor:
+                getter: getOneBehaviorEventRef
+                setter: setOneBehaviorEventRef
+            xml_attribute: true
+            type: string
+        noneBehaviorEventRef:
+            expose: true
+            access_type: public_method
+            serialized_name: noneBehaviorEventRef
+            accessor:
+                getter: getNoneBehaviorEventRef
+                setter: setNoneBehaviorEventRef
+            xml_attribute: true
+            type: string
+        loopCardinality:
+            expose: true
+            access_type: public_method
+            serialized_name: loopCardinality
+            xml_element:
+                namespace: 'http://www.omg.org/spec/BPMN/20100524/MODEL'
+            accessor:
+                getter: getLoopCardinality
+                setter: setLoopCardinality
+            type: ProcessMaker\Bpmn\Model\TExpressionType
+        loopDataInputRef:
+            expose: true
+            access_type: public_method
+            serialized_name: loopDataInputRef
+            xml_element:
+                namespace: 'http://www.omg.org/spec/BPMN/20100524/MODEL'
+            accessor:
+                getter: getLoopDataInputRef
+                setter: setLoopDataInputRef
+            type: string
+        loopDataOutputRef:
+            expose: true
+            access_type: public_method
+            serialized_name: loopDataOutputRef
+            xml_element:
+                namespace: 'http://www.omg.org/spec/BPMN/20100524/MODEL'
+            accessor:
+                getter: getLoopDataOutputRef
+                setter: setLoopDataOutputRef
+            type: string
+        inputDataItem:
+            expose: true
+            access_type: public_method
+            serialized_name: inputDataItem
+            xml_element:
+                namespace: 'http://www.omg.org/spec/BPMN/20100524/MODEL'
+            accessor:
+                getter: getInputDataItem
+                setter: setInputDataItem
+            type: ProcessMaker\Bpmn\Model\TDataInputType
+        outputDataItem:
+            expose: true
+            access_type: public_method
+            serialized_name: outputDataItem
+            xml_element:
+                namespace: 'http://www.omg.org/spec/BPMN/20100524/MODEL'
+            accessor:
+                getter: getOutputDataItem
+                setter: setOutputDataItem
+            type: ProcessMaker\Bpmn\Model\TDataOutputType
+        complexBehaviorDefinition:
+            expose: true
+            access_type: public_method
+            serialized_name: complexBehaviorDefinition
+            xml_element:
+                namespace: 'http://www.omg.org/spec/BPMN/20100524/MODEL'
+            accessor:
+                getter: getComplexBehaviorDefinition
+                setter: setComplexBehaviorDefinition
+            xml_list:
+                inline: true
+                entry_name: complexBehaviorDefinition
+                namespace: 'http://www.omg.org/spec/BPMN/20100524/MODEL'
+            type: array<ProcessMaker\Bpmn\Model\ComplexBehaviorDefinition>
+        completionCondition:
+            expose: true
+            access_type: public_method
+            serialized_name: completionCondition
+            xml_element:
+                namespace: 'http://www.omg.org/spec/BPMN/20100524/MODEL'
+            accessor:
+                getter: getCompletionCondition
+                setter: setCompletionCondition
+            type: ProcessMaker\Bpmn\Model\TExpressionType

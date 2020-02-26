@@ -1,0 +1,21 @@
+ProcessMaker\Bpmn\Model\TCorrelationPropertyBindingType:
+    properties:
+        correlationPropertyRef:
+            expose: true
+            access_type: public_method
+            serialized_name: correlationPropertyRef
+            accessor:
+                getter: getCorrelationPropertyRef
+                setter: setCorrelationPropertyRef
+            xml_attribute: true
+            type: string
+        dataPath:
+            expose: true
+            access_type: public_method
+            serialized_name: dataPath
+            xml_element:
+                namespace: 'http://www.omg.org/spec/BPMN/20100524/MODEL'
+            accessor:
+                getter: getDataPath
+                setter: setDataPath
+            type: ProcessMaker\Bpmn\Model\TFormalExpressionType

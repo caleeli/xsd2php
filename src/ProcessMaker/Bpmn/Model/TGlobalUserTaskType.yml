@@ -1,0 +1,25 @@
+ProcessMaker\Bpmn\Model\TGlobalUserTaskType:
+    properties:
+        implementation:
+            expose: true
+            access_type: public_method
+            serialized_name: implementation
+            accessor:
+                getter: getImplementation
+                setter: setImplementation
+            xml_attribute: true
+            type: string
+        rendering:
+            expose: true
+            access_type: public_method
+            serialized_name: rendering
+            xml_element:
+                namespace: 'http://www.omg.org/spec/BPMN/20100524/MODEL'
+            accessor:
+                getter: getRendering
+                setter: setRendering
+            xml_list:
+                inline: true
+                entry_name: rendering
+                namespace: 'http://www.omg.org/spec/BPMN/20100524/MODEL'
+            type: array<ProcessMaker\Bpmn\Model\Rendering>

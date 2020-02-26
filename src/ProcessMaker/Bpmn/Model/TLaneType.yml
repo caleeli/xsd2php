@@ -1,0 +1,54 @@
+ProcessMaker\Bpmn\Model\TLaneType:
+    properties:
+        name:
+            expose: true
+            access_type: public_method
+            serialized_name: name
+            accessor:
+                getter: getName
+                setter: setName
+            xml_attribute: true
+            type: string
+        partitionElementRef:
+            expose: true
+            access_type: public_method
+            serialized_name: partitionElementRef
+            accessor:
+                getter: getPartitionElementRef
+                setter: setPartitionElementRef
+            xml_attribute: true
+            type: string
+        partitionElement:
+            expose: true
+            access_type: public_method
+            serialized_name: partitionElement
+            xml_element:
+                namespace: 'http://www.omg.org/spec/BPMN/20100524/MODEL'
+            accessor:
+                getter: getPartitionElement
+                setter: setPartitionElement
+            type: ProcessMaker\Bpmn\Model\TBaseElementType
+        flowNodeRef:
+            expose: true
+            access_type: public_method
+            serialized_name: flowNodeRef
+            xml_element:
+                namespace: 'http://www.omg.org/spec/BPMN/20100524/MODEL'
+            accessor:
+                getter: getFlowNodeRef
+                setter: setFlowNodeRef
+            xml_list:
+                inline: true
+                entry_name: flowNodeRef
+                namespace: 'http://www.omg.org/spec/BPMN/20100524/MODEL'
+            type: array<string>
+        childLaneSet:
+            expose: true
+            access_type: public_method
+            serialized_name: childLaneSet
+            xml_element:
+                namespace: 'http://www.omg.org/spec/BPMN/20100524/MODEL'
+            accessor:
+                getter: getChildLaneSet
+                setter: setChildLaneSet
+            type: ProcessMaker\Bpmn\Model\TLaneSetType

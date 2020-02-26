@@ -1,0 +1,3 @@
+ProcessMaker\Bpmn\Model\ComplexGateway:
+    xml_root_name: complexGateway
+    xml_root_namespace: 'http://www.omg.org/spec/BPMN/20100524/MODEL'

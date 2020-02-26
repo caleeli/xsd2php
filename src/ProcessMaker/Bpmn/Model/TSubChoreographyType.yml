@@ -1,0 +1,30 @@
+ProcessMaker\Bpmn\Model\TSubChoreographyType:
+    properties:
+        flowElement:
+            expose: true
+            access_type: public_method
+            serialized_name: flowElement
+            xml_element:
+                namespace: 'http://www.omg.org/spec/BPMN/20100524/MODEL'
+            accessor:
+                getter: getFlowElement
+                setter: setFlowElement
+            xml_list:
+                inline: true
+                entry_name: flowElement
+                namespace: 'http://www.omg.org/spec/BPMN/20100524/MODEL'
+            type: array<ProcessMaker\Bpmn\Model\FlowElement>
+        artifact:
+            expose: true
+            access_type: public_method
+            serialized_name: artifact
+            xml_element:
+                namespace: 'http://www.omg.org/spec/BPMN/20100524/MODEL'
+            accessor:
+                getter: getArtifact
+                setter: setArtifact
+            xml_list:
+                inline: true
+                entry_name: artifact
+                namespace: 'http://www.omg.org/spec/BPMN/20100524/MODEL'
+            type: array<ProcessMaker\Bpmn\Model\Artifact>

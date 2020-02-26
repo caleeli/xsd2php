@@ -1,0 +1,21 @@
+ProcessMaker\Bpmn\Model\TMessageEventDefinitionType:
+    properties:
+        messageRef:
+            expose: true
+            access_type: public_method
+            serialized_name: messageRef
+            accessor:
+                getter: getMessageRef
+                setter: setMessageRef
+            xml_attribute: true
+            type: string
+        operationRef:
+            expose: true
+            access_type: public_method
+            serialized_name: operationRef
+            xml_element:
+                namespace: 'http://www.omg.org/spec/BPMN/20100524/MODEL'
+            accessor:
+                getter: getOperationRef
+                setter: setOperationRef
+            type: string

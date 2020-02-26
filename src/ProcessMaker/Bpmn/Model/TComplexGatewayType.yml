@@ -1,0 +1,21 @@
+ProcessMaker\Bpmn\Model\TComplexGatewayType:
+    properties:
+        default:
+            expose: true
+            access_type: public_method
+            serialized_name: default
+            accessor:
+                getter: getDefault
+                setter: setDefault
+            xml_attribute: true
+            type: string
+        activationCondition:
+            expose: true
+            access_type: public_method
+            serialized_name: activationCondition
+            xml_element:
+                namespace: 'http://www.omg.org/spec/BPMN/20100524/MODEL'
+            accessor:
+                getter: getActivationCondition
+                setter: setActivationCondition
+            type: ProcessMaker\Bpmn\Model\TExpressionType

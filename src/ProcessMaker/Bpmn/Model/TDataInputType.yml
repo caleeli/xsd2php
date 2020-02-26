@@ -1,0 +1,39 @@
+ProcessMaker\Bpmn\Model\TDataInputType:
+    properties:
+        name:
+            expose: true
+            access_type: public_method
+            serialized_name: name
+            accessor:
+                getter: getName
+                setter: setName
+            xml_attribute: true
+            type: string
+        itemSubjectRef:
+            expose: true
+            access_type: public_method
+            serialized_name: itemSubjectRef
+            accessor:
+                getter: getItemSubjectRef
+                setter: setItemSubjectRef
+            xml_attribute: true
+            type: string
+        isCollection:
+            expose: true
+            access_type: public_method
+            serialized_name: isCollection
+            accessor:
+                getter: getIsCollection
+                setter: setIsCollection
+            xml_attribute: true
+            type: boolean
+        dataState:
+            expose: true
+            access_type: public_method
+            serialized_name: dataState
+            xml_element:
+                namespace: 'http://www.omg.org/spec/BPMN/20100524/MODEL'
+            accessor:
+                getter: getDataState
+                setter: setDataState
+            type: ProcessMaker\Bpmn\Model\DataState

@@ -1,0 +1,58 @@
+ProcessMaker\Bpmn\Model\TParticipantType:
+    properties:
+        name:
+            expose: true
+            access_type: public_method
+            serialized_name: name
+            accessor:
+                getter: getName
+                setter: setName
+            xml_attribute: true
+            type: string
+        processRef:
+            expose: true
+            access_type: public_method
+            serialized_name: processRef
+            accessor:
+                getter: getProcessRef
+                setter: setProcessRef
+            xml_attribute: true
+            type: string
+        interfaceRef:
+            expose: true
+            access_type: public_method
+            serialized_name: interfaceRef
+            xml_element:
+                namespace: 'http://www.omg.org/spec/BPMN/20100524/MODEL'
+            accessor:
+                getter: getInterfaceRef
+                setter: setInterfaceRef
+            xml_list:
+                inline: true
+                entry_name: interfaceRef
+                namespace: 'http://www.omg.org/spec/BPMN/20100524/MODEL'
+            type: array<string>
+        endPointRef:
+            expose: true
+            access_type: public_method
+            serialized_name: endPointRef
+            xml_element:
+                namespace: 'http://www.omg.org/spec/BPMN/20100524/MODEL'
+            accessor:
+                getter: getEndPointRef
+                setter: setEndPointRef
+            xml_list:
+                inline: true
+                entry_name: endPointRef
+                namespace: 'http://www.omg.org/spec/BPMN/20100524/MODEL'
+            type: array<string>
+        participantMultiplicity:
+            expose: true
+            access_type: public_method
+            serialized_name: participantMultiplicity
+            xml_element:
+                namespace: 'http://www.omg.org/spec/BPMN/20100524/MODEL'
+            accessor:
+                getter: getParticipantMultiplicity
+                setter: setParticipantMultiplicity
+            type: ProcessMaker\Bpmn\Model\ParticipantMultiplicity

@@ -1,0 +1,29 @@
+ProcessMaker\Bpmn\Model\TErrorType:
+    properties:
+        name:
+            expose: true
+            access_type: public_method
+            serialized_name: name
+            accessor:
+                getter: getName
+                setter: setName
+            xml_attribute: true
+            type: string
+        errorCode:
+            expose: true
+            access_type: public_method
+            serialized_name: errorCode
+            accessor:
+                getter: getErrorCode
+                setter: setErrorCode
+            xml_attribute: true
+            type: string
+        structureRef:
+            expose: true
+            access_type: public_method
+            serialized_name: structureRef
+            accessor:
+                getter: getStructureRef
+                setter: setStructureRef
+            xml_attribute: true
+            type: string

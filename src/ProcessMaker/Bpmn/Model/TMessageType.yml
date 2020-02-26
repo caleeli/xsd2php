@@ -1,0 +1,20 @@
+ProcessMaker\Bpmn\Model\TMessageType:
+    properties:
+        name:
+            expose: true
+            access_type: public_method
+            serialized_name: name
+            accessor:
+                getter: getName
+                setter: setName
+            xml_attribute: true
+            type: string
+        itemRef:
+            expose: true
+            access_type: public_method
+            serialized_name: itemRef
+            accessor:
+                getter: getItemRef
+                setter: setItemRef
+            xml_attribute: true
+            type: string

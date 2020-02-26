@@ -1,0 +1,29 @@
+ProcessMaker\Bpmn\Model\TImportType:
+    properties:
+        namespace:
+            expose: true
+            access_type: public_method
+            serialized_name: namespace
+            accessor:
+                getter: getNamespace
+                setter: setNamespace
+            xml_attribute: true
+            type: string
+        location:
+            expose: true
+            access_type: public_method
+            serialized_name: location
+            accessor:
+                getter: getLocation
+                setter: setLocation
+            xml_attribute: true
+            type: string
+        importType:
+            expose: true
+            access_type: public_method
+            serialized_name: importType
+            accessor:
+                getter: getImportType
+                setter: setImportType
+            xml_attribute: true
+            type: string

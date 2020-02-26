@@ -1,0 +1,48 @@
+ProcessMaker\Bpmn\Model\TDataStoreType:
+    properties:
+        name:
+            expose: true
+            access_type: public_method
+            serialized_name: name
+            accessor:
+                getter: getName
+                setter: setName
+            xml_attribute: true
+            type: string
+        capacity:
+            expose: true
+            access_type: public_method
+            serialized_name: capacity
+            accessor:
+                getter: getCapacity
+                setter: setCapacity
+            xml_attribute: true
+            type: integer
+        isUnlimited:
+            expose: true
+            access_type: public_method
+            serialized_name: isUnlimited
+            accessor:
+                getter: getIsUnlimited
+                setter: setIsUnlimited
+            xml_attribute: true
+            type: boolean
+        itemSubjectRef:
+            expose: true
+            access_type: public_method
+            serialized_name: itemSubjectRef
+            accessor:
+                getter: getItemSubjectRef
+                setter: setItemSubjectRef
+            xml_attribute: true
+            type: string
+        dataState:
+            expose: true
+            access_type: public_method
+            serialized_name: dataState
+            xml_element:
+                namespace: 'http://www.omg.org/spec/BPMN/20100524/MODEL'
+            accessor:
+                getter: getDataState
+                setter: setDataState
+            type: ProcessMaker\Bpmn\Model\DataState

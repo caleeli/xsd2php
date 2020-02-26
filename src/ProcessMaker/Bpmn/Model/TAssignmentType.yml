@@ -1,0 +1,22 @@
+ProcessMaker\Bpmn\Model\TAssignmentType:
+    properties:
+        from:
+            expose: true
+            access_type: public_method
+            serialized_name: from
+            xml_element:
+                namespace: 'http://www.omg.org/spec/BPMN/20100524/MODEL'
+            accessor:
+                getter: getFrom
+                setter: setFrom
+            type: ProcessMaker\Bpmn\Model\TExpressionType
+        to:
+            expose: true
+            access_type: public_method
+            serialized_name: to
+            xml_element:
+                namespace: 'http://www.omg.org/spec/BPMN/20100524/MODEL'
+            accessor:
+                getter: getTo
+                setter: setTo
+            type: ProcessMaker\Bpmn\Model\TExpressionType

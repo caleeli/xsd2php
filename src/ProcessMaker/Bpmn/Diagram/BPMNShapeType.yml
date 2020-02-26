@@ -1,0 +1,75 @@
+ProcessMaker\Bpmn\Diagram\BPMNShapeType:
+    properties:
+        bpmnElement:
+            expose: true
+            access_type: public_method
+            serialized_name: bpmnElement
+            accessor:
+                getter: getBpmnElement
+                setter: setBpmnElement
+            xml_attribute: true
+            type: string
+        isHorizontal:
+            expose: true
+            access_type: public_method
+            serialized_name: isHorizontal
+            accessor:
+                getter: getIsHorizontal
+                setter: setIsHorizontal
+            xml_attribute: true
+            type: boolean
+        isExpanded:
+            expose: true
+            access_type: public_method
+            serialized_name: isExpanded
+            accessor:
+                getter: getIsExpanded
+                setter: setIsExpanded
+            xml_attribute: true
+            type: boolean
+        isMarkerVisible:
+            expose: true
+            access_type: public_method
+            serialized_name: isMarkerVisible
+            accessor:
+                getter: getIsMarkerVisible
+                setter: setIsMarkerVisible
+            xml_attribute: true
+            type: boolean
+        isMessageVisible:
+            expose: true
+            access_type: public_method
+            serialized_name: isMessageVisible
+            accessor:
+                getter: getIsMessageVisible
+                setter: setIsMessageVisible
+            xml_attribute: true
+            type: boolean
+        participantBandKind:
+            expose: true
+            access_type: public_method
+            serialized_name: participantBandKind
+            accessor:
+                getter: getParticipantBandKind
+                setter: setParticipantBandKind
+            xml_attribute: true
+            type: string
+        choreographyActivityShape:
+            expose: true
+            access_type: public_method
+            serialized_name: choreographyActivityShape
+            accessor:
+                getter: getChoreographyActivityShape
+                setter: setChoreographyActivityShape
+            xml_attribute: true
+            type: string
+        bPMNLabel:
+            expose: true
+            access_type: public_method
+            serialized_name: BPMNLabel
+            xml_element:
+                namespace: 'http://www.omg.org/spec/BPMN/20100524/DI'
+            accessor:
+                getter: getBPMNLabel
+                setter: setBPMNLabel
+            type: ProcessMaker\Bpmn\Diagram\BPMNLabel

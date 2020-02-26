@@ -1,0 +1,12 @@
+ProcessMaker\Bpmn\Diagram\ShapeType:
+    properties:
+        bounds:
+            expose: true
+            access_type: public_method
+            serialized_name: Bounds
+            xml_element:
+                namespace: 'http://www.omg.org/spec/DD/20100524/DC'
+            accessor:
+                getter: getBounds
+                setter: setBounds
+            type: ProcessMaker\Bpmn\Diagram\Bounds

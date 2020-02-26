@@ -1,0 +1,11 @@
+ProcessMaker\Bpmn\Diagram\BPMNLabelType:
+    properties:
+        labelStyle:
+            expose: true
+            access_type: public_method
+            serialized_name: labelStyle
+            accessor:
+                getter: getLabelStyle
+                setter: setLabelStyle
+            xml_attribute: true
+            type: string

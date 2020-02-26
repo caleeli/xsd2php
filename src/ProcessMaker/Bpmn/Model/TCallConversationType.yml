@@ -1,0 +1,25 @@
+ProcessMaker\Bpmn\Model\TCallConversationType:
+    properties:
+        calledCollaborationRef:
+            expose: true
+            access_type: public_method
+            serialized_name: calledCollaborationRef
+            accessor:
+                getter: getCalledCollaborationRef
+                setter: setCalledCollaborationRef
+            xml_attribute: true
+            type: string
+        participantAssociation:
+            expose: true
+            access_type: public_method
+            serialized_name: participantAssociation
+            xml_element:
+                namespace: 'http://www.omg.org/spec/BPMN/20100524/MODEL'
+            accessor:
+                getter: getParticipantAssociation
+                setter: setParticipantAssociation
+            xml_list:
+                inline: true
+                entry_name: participantAssociation
+                namespace: 'http://www.omg.org/spec/BPMN/20100524/MODEL'
+            type: array<ProcessMaker\Bpmn\Model\ParticipantAssociation>

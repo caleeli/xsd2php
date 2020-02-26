@@ -1,0 +1,3 @@
+ProcessMaker\Bpmn\Model\ChoreographyActivity:
+    xml_root_name: choreographyActivity
+    xml_root_namespace: 'http://www.omg.org/spec/BPMN/20100524/MODEL'

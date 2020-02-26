@@ -1,0 +1,29 @@
+ProcessMaker\Bpmn\Model\TResourceParameterType:
+    properties:
+        name:
+            expose: true
+            access_type: public_method
+            serialized_name: name
+            accessor:
+                getter: getName
+                setter: setName
+            xml_attribute: true
+            type: string
+        type:
+            expose: true
+            access_type: public_method
+            serialized_name: type
+            accessor:
+                getter: getType
+                setter: setType
+            xml_attribute: true
+            type: string
+        isRequired:
+            expose: true
+            access_type: public_method
+            serialized_name: isRequired
+            accessor:
+                getter: getIsRequired
+                setter: setIsRequired
+            xml_attribute: true
+            type: boolean

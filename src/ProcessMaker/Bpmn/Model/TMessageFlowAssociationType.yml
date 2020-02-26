@@ -1,0 +1,20 @@
+ProcessMaker\Bpmn\Model\TMessageFlowAssociationType:
+    properties:
+        innerMessageFlowRef:
+            expose: true
+            access_type: public_method
+            serialized_name: innerMessageFlowRef
+            accessor:
+                getter: getInnerMessageFlowRef
+                setter: setInnerMessageFlowRef
+            xml_attribute: true
+            type: string
+        outerMessageFlowRef:
+            expose: true
+            access_type: public_method
+            serialized_name: outerMessageFlowRef
+            accessor:
+                getter: getOuterMessageFlowRef
+                setter: setOuterMessageFlowRef
+            xml_attribute: true
+            type: string

@@ -1,0 +1,20 @@
+ProcessMaker\Bpmn\Model\TFormalExpressionType:
+    properties:
+        language:
+            expose: true
+            access_type: public_method
+            serialized_name: language
+            accessor:
+                getter: getLanguage
+                setter: setLanguage
+            xml_attribute: true
+            type: string
+        evaluatesToTypeRef:
+            expose: true
+            access_type: public_method
+            serialized_name: evaluatesToTypeRef
+            accessor:
+                getter: getEvaluatesToTypeRef
+                setter: setEvaluatesToTypeRef
+            xml_attribute: true
+            type: string

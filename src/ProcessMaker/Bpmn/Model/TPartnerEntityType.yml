@@ -1,0 +1,25 @@
+ProcessMaker\Bpmn\Model\TPartnerEntityType:
+    properties:
+        name:
+            expose: true
+            access_type: public_method
+            serialized_name: name
+            accessor:
+                getter: getName
+                setter: setName
+            xml_attribute: true
+            type: string
+        participantRef:
+            expose: true
+            access_type: public_method
+            serialized_name: participantRef
+            xml_element:
+                namespace: 'http://www.omg.org/spec/BPMN/20100524/MODEL'
+            accessor:
+                getter: getParticipantRef
+                setter: setParticipantRef
+            xml_list:
+                inline: true
+                entry_name: participantRef
+                namespace: 'http://www.omg.org/spec/BPMN/20100524/MODEL'
+            type: array<string>

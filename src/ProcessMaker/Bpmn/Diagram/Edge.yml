@@ -1,0 +1,3 @@
+ProcessMaker\Bpmn\Diagram\Edge:
+    xml_root_name: Edge
+    xml_root_namespace: 'http://www.omg.org/spec/DD/20100524/DI'
